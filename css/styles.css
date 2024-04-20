@@ -1,0 +1,41 @@
+#panel_navigator{
+    position: fixed;
+    z-index: 1;
+    right: 0px;
+    top: 33%;
+    margin: auto;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+/* Used to get body off of navbar */
+#width-limiter{
+    margin-right: 175px;
+}
+
+#profilepic{
+    position: relative;
+    left: 50 px;
+    text-align: right;
+}
+
+#panel_navigator:hover{
+    opacity: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto";
+    position: relative;
+}
+
+section
+{
+    height: 25vh;
+    width: 100%;
+    padding-top: 25px;
+}
+
