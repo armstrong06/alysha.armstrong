@@ -10,7 +10,7 @@
 
 /* Used to get body off of navbar */
 #width-limiter{
-    margin-right: 175px;
+    margin-right: 130px;
 }
 
 #profilepic{
@@ -34,12 +34,22 @@ body{
 
 section
 {
-    height: 25vh;
+    /* height: 25vh; */
     width: 100%;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
-#education
+.list-group  > .list-group > .list-group-item {
+    padding-left: 2.5rem;
+  }
+
+.list-group > .list-group-item {
+    background-color:lightcoral;
+    font-style: italic;
+    font-weight: bold;
+}
+/* #education
 {
     height: 50vh;
 }
@@ -47,4 +57,4 @@ section
 #research
 {
     height: 35vh;
-}
+} */
