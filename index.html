@@ -23,20 +23,25 @@
 <div class="navbar nav flex-column btn-group-vertical m-auto ml-1" id="panel_navigator">
     <a class="nav-link btn btn-outline-secondary btn-sm" href="#about">About</a>
     <a class="nav-link btn btn-outline-secondary btn-sm" href="#education">Education</a>
-    <a class="nav-link btn btn-outline-secondary btn-sm" href="#research">Research</a>
+    <a class="nav-link btn btn-outline-secondary btn-sm" href="#thesisprojects">Thesis Projects</a>
+    <a class="nav-link btn btn-outline-secondary btn-sm" href="#documents">Documents</a>
 </div>
 
 <div class="row align-items-md-stretch text-left gx-0 mx-0" id="titleArea">
-    <div class="col-md-6">
+    <div class="col-md-5">
         <div class="h-100 p-5 text-bg-dark">
             <h1>Alysha Armstrong</h1>
-            <p>by: Alysha Armstrong</p> 
+            <p><i>Ph.D. Candidate - University of Utah</i> <br>
+                alysha.armstrong [at] utah.edu </p> 
+            <button type="submit" onclick="window.open('files/SSA2024Poster.pdf')"
+            class="btn btn-outline-light" target="_blank" type="button">Download my SSA 2024 poster</button>
+
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-7">
         <div class="h-100 text-bg-dark">
             <img src="files/me_toph_moab_2022.jpg" alt="Profile Pic" class="img-fluid"
-             width="200" height="300" href="#profilepic"/>
+             width="245" href="#profilepic"/>
         </div>
     </div>
 </div>
@@ -47,24 +52,71 @@
             <div class="row g-0 text-left" id="panel1">   
                 <div class="col">
                     <h2>About</h2>
-                    <p>Hi, there! I'm Alysha and I am currently a Ph.D. candidate at the University of Utah, where I am advised by 
-                        Dr. <a href="https://www.koper-research.com/"> Keith Koper</a>. My thesis work focuses on using machine learning 
-                        to find and process small, often overlapping earthquakes in the Yellowstone volcano region. I'm primarily interested
-                        in seismic sources and network seismology and the use of machine learning to help with them. 
+                    <p> Hi there! I'm Alysha, a Ph.D. candidate at the University of Utah, where Dr. 
+                        <a href="https://www.koper-research.com/" target="_blank"> Keith Koper</a> advises me.
+                         My thesis focuses on using machine learning to find and process small, often overlapping, earthquakes 
+                         in the Yellowstone volcano region. I'm primarily interested in seismic sources, network seismology, 
+                         and machine learning.
                     </p>
                 </div>
             </div>
         </section>
         <section id="education">
-            <div class="row g-0 text-left" id="panel2">   
-                <h2>Education</h21>
-                <h4>University of Utah</h4>
-                <p>Doctor of Philosophy</p>
+            <h2>Education</h2>
+
+            <div class="row g-0" id="panel2">  
+                <div class="col-6">
+                    <div class="h-100 p-2 md-body-tertiary border rounded-3" >
+                        <h5><b>University of Utah</b></h5>
+                        <p><i>Doctor of Philosophy in Geophysics</i><br>
+                            Expected May 2025 
+                        </p>
+                        <p><i>Graduate Certificate in Data Science</i><br>
+                            Awarded Dec. 2021
+                        </p>
+                        <p><i>Bachelor of Science in Geoscience</i><br>
+                            Minor in Computer Science <br>
+                            Aug. 2016 – May 2020 <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="files/the-university-of-utah6232.logowik.com.webp" alt="ulogo" class="img-fluid"
+                     href="#ulogo" width="370"/>
+                </div> 
             </div>
         </section>
         <section id="research">
+            <h2>Thesis Projects</h2>
             <div class="row g-0 text-left" id="panel2">   
-                <h2>Research</h21>
+                <div class="col-4">
+                    <div class="h-100 p-2 md-body-tertiary border rounded-3" >
+                        <p>A deep‐learning phase picker with calibrated Bayesian‐derived uncertainties for earthquakes in the
+                             Yellowstone Volcanic Region</p>
+                        <a href="https://doi.org/10.1785/0120230068" class="btn btn-outline-dark" target="_blank" type="button">Get Paper</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="h-100 p-2 md-body-tertiary border rounded-3" >
+                        <p>Feature-based magnitude estimates for small earthquakes in the Yellowstone Volcanic Region </p>
+                        <button class="btn btn-outline-dark" type="button" disabled>Submitted</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="h-100 p-2 md-body-tertiary border rounded-3" >
+                        <p>A deep-learning enhanced earthquake catalog for the Yellowstone Volcano Region</p>
+                        <button class="btn btn-outline-dark" type="button" disabled>Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="documents">
+            <div class="row g-0 text-left" id="panel1">   
+                <div class="col">
+                    <h2>Documents</h2>
+                    <p> A copy of my <a href="files/Armstrong_CV_20240421.pdf" target="_blank"
+                        download="Armstrong_CV_20240421.pdf">CV</a> (updated 4/21/24)</p>
+                </div>
             </div>
         </section>
     </div>
