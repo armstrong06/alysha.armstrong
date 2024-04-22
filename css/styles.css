@@ -40,14 +40,16 @@ section
     padding-bottom: 15px;
 }
 
-.list-group  > .list-group > .list-group-item {
+.list-group  > .list-group-flush > .list-group-item {
     padding-left: 2.5rem;
+    font-style: italic;
   }
 
 .list-group > .list-group-item {
-    background-color:lightcoral;
-    font-style: italic;
+    background-color:firebrick;
+    font-style: normal;
     font-weight: bold;
+    color: white;
 }
 /* #education
 {
